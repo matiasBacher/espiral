@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/espiral.h
+
+G:/codificacion/c++/proyecto/espiral/main.cpp
+iostream
+-
+ctype.h
+-
+stdlib.h
+-
+espiral.h
+-
+

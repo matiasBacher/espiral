@@ -1,0 +1,6 @@
+G:/codificacion/c++/proyecto/espiral/build/CMakeFiles/espiral.dir
+G:/codificacion/c++/proyecto/espiral/build/CMakeFiles/edit_cache.dir
+G:/codificacion/c++/proyecto/espiral/build/CMakeFiles/rebuild_cache.dir
+G:/codificacion/c++/proyecto/espiral/build/lib/CMakeFiles/edit_cache.dir
+G:/codificacion/c++/proyecto/espiral/build/lib/CMakeFiles/espiralLib.dir
+G:/codificacion/c++/proyecto/espiral/build/lib/CMakeFiles/rebuild_cache.dir

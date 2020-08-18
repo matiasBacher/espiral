@@ -1,0 +1,4 @@
+add_library(espiralLib espiral.cpp)
+
+target_include_directories(espiralLib
+PUBLIC  ../includes)

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "G:/codificacion/c++/proyecto/espiral/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/espiral.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\espiral.dir\\main.cpp.obj -c G:\\codificacion\\c++\\proyecto\\espiral\\main.cpp",
+  "file": "G:/codificacion/c++/proyecto/espiral/main.cpp"
+},
+{
+  "directory": "G:/codificacion/c++/proyecto/espiral/build/lib",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/espiralLib.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\espiralLib.dir\\espiral.cpp.obj -c G:\\codificacion\\c++\\proyecto\\espiral\\lib\\espiral.cpp",
+  "file": "G:/codificacion/c++/proyecto/espiral/lib/espiral.cpp"
+}
+]

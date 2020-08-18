@@ -8,6 +8,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 using std::ofstream;
+using std::ios;
 
 
 bool esDigito (const char* numero)
@@ -73,7 +74,7 @@ int main(int argc, const char** argv) {
 
     if (!archivoSalida)
     {
-        cout<<"No se pudo abrir el archivo"
+        cout<<"No se pudo abrir el archivo";
         return 5;    
     }
     

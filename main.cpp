@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <espiral.h>
+#include <string.h>
 
 using std::cout;
 using std::cin;
@@ -42,11 +43,7 @@ bool esDigito (const char* numero)
 
 
 int main(int argc, const char** argv) {
-    if (argc>2)
-    {
-        cout<<"ingrese solo un valor"<<endl;
-        return 1;
-    }
+
 
     if (argc<1)
     {
@@ -69,8 +66,16 @@ int main(int argc, const char** argv) {
     }
 
     espiral miEspiral (tamanno);
+    char nombreArchivo [40]="espiral";
+    char extension [] = ".dat";
+    if (argc>2)
+    {
+        strcpy(nombreArchivo, argv[2]);
+    }
+    
+    strcat (nombreArchivo,extension);
 
-    ofstream archivoSalida ("espiral.dat", ios::out);
+    ofstream archivoSalida (nombreArchivo, ios::out);
 
     if (!archivoSalida)
     {

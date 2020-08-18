@@ -68,14 +68,22 @@ int main(int argc, const char** argv) {
     }
 
     espiral miEspiral (tamanno);
+
+    ofstream archivoSalida ("espiral.dat", ios::out);
+
+    if (!archivoSalida)
+    {
+        cout<<"No se pudo abrir el archivo"
+        return 5;    
+    }
     
     for (int i = 0; i < tamanno; i++)
     {
         for (int j = 0; j < tamanno; j++)
         {
-            cout<<miEspiral.getTabla(i,j)<<' ';
+            archivoSalida<<miEspiral.getTabla(i,j)<<' ';
         }
-        cout<<endl;
+        archivoSalida<<endl;
     }
     
     
